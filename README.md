@@ -1,24 +1,23 @@
-# hosts-override [![Build Status](https://travis-ci.org/rcaught/hosts-override.svg?branch=master)](https://travis-ci.org/rcaught/hosts-override)
 Override `hosts` file entries for the lifetime of the process
 
 ## Installation
 
 ##### MacOS (Homebrew via own tap)
 ```
-$ brew install rcaught/hosts-override/hosts-override
+$ brew install ausaccessfed/hosts-override/hosts-override
 ```
 ##### MacOS (manually)
 ```
-$ curl -Ls https://github.com/rcaught/hosts-override/releases/latest/download/macos.zip > /tmp/hosts-override.zip
+$ curl -Ls https://github.com/ausaccessfed/hosts-override/releases/latest/download/macos.zip > /tmp/hosts-override.zip
 $ unzip /tmp/hosts-override.zip -d /usr/local/bin
 ```
 ##### Linux
 ```
-$ curl -Ls https://github.com/rcaught/hosts-override/releases/latest/download/linux.zip > /tmp/hosts-override.zip
+$ curl -Ls https://github.com/ausaccessfed/hosts-override/releases/latest/download/linux.zip > /tmp/hosts-override.zip
 $ unzip /tmp/hosts-override.zip -d /usr/local/bin
 ```
 ##### Windows
-- Download https://github.com/rcaught/hosts-override/releases/latest/download/windows.zip
+- Download https://github.com/ausaccessfed/hosts-override/releases/latest/download/windows.zip
 - Unzip the file and run the exe as Administrator
 
 ## Usage

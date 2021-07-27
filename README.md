@@ -2,6 +2,8 @@
 
 Override `hosts` file entries for the lifetime of the process
 
+This project was initially created by @rcaught during his time with @ausaccessfed.
+
 ## Installation
 
 ### MacOS
@@ -75,3 +77,19 @@ unzip /tmp/hosts-override.zip -d /usr/local/bin
 - IPv4 and IPv6 addresses supported
 
 ## Development
+
+This is a Go based project so you'll need to [install Go](https://golang.org/doc/install) on your development machine if you want to make changes.
+
+There is no CI associated with this project, otherwise normal PR review process applies.
+
+## Releasing
+
+We ship releases for:
+
+- Windows
+- Linux
+- MacOS
+
+To build all three releases using Go's cross platform capabilities run `./release.sh` which will create 3 new zip files in the `release` directory. This should only ever occur once PR are merged into the main branch.
+
+From there [create a new release on GitHub](https://github.com/ausaccessfed/hosts-override/releases/new) and attach the binaries for consumption by users.
